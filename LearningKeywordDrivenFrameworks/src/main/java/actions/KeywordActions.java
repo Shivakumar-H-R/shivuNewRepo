@@ -14,6 +14,7 @@ import com.constants.Constants;
 public class KeywordActions {
   
 	WebDriver driver;
+	//launching browser
 	public void launchBrowser() {
 		driver=new ChromeDriver();
 	}
